@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detalhes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.example.william.catalogodevinos.DetalhesActivity">
+
+
+    <ImageView
+        android:id="@+id/imgVinho"
+        android:layout_width="240dp"
+        android:layout_height="180dp" />
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/txtTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/txtOrigem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/txtVinicula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/txtAno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/txtDetalhes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"/>
+
+    <RatingBar
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:id="@+id/RatNota"
+        android:layout_marginTop="12dp"/>
+
+
+</LinearLayout>
